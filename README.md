@@ -69,3 +69,16 @@ src/
 - The bot uses slash commands, so command registration can take a moment after startup.
 - Joke and price commands depend on external APIs.
 - Reminders are persisted in SQLite, so they survive bot restarts as long as the database file is kept.
+
+Phase 1 Acceptance Criteria
+
+- [X] bot works in a Discord server
+- [X] all 3 commands work
+- [X] repo is clean and documented
+- [] screenshots in README
+- [ ] bot deployed online (Render/Railway)
+
+Phase 2 Acceptance Criteria
+
+- [X] allow joke category selection
+- [ ] return two part jokes with a delay between the parts

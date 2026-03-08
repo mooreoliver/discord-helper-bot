@@ -14,10 +14,11 @@ def _get_fallback_joke() -> str:
     return random.choice(JOKES)
 
 
-async def get_random_joke(category: str) -> str:
+async def get_random_joke(category: str, joke_type: str) -> str:
     url = f"https://v2.jokeapi.dev/joke/{category}"
     params = {
         "safe-mode": "",
+        "type": joke_type
     }
 
     try:
