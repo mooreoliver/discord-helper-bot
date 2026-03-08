@@ -75,10 +75,9 @@ Phase 1 Acceptance Criteria
 - [X] bot works in a Discord server
 - [X] all 3 commands work
 - [X] repo is clean and documented
-- [] screenshots in README
-- [ ] bot deployed online (Render/Railway)
+- [X] bot deployed online (Render/Railway)
 
 Phase 2 Acceptance Criteria
 
 - [X] allow joke category selection
-- [ ] return two part jokes with a delay between the parts
+- [X] return two part jokes with a delay between the parts
